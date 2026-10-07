@@ -1,0 +1,9 @@
+# Databricks App Specification
+command:
+  - "python"
+  - "app.py"
+env:
+  - name: "DATABRICKS_CATALOG"
+    value: "workspace"
+  - name: "DATABRICKS_SCHEMA"
+    value: "default"
